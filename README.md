@@ -20,7 +20,7 @@ https://data.cityofchicago.org/Public-Safety/Police-Stations-Shapefiles/tc9m-x6u
 
 Notebooks
 
-Exploratory-Data-Analysis.ipynb
+1. Exploratory-Data-Analysis.ipynb
 This notebook performs Exploratory Data Analysis (EDA) on two datasets:
 Dataset 1: Violence Reduction Victim Demographics Aggregated
 Dataset 2: Crimes for One Year Prior to Present.
@@ -29,7 +29,7 @@ The notebook uses libraries like Pandas, Matplotlib, and Seaborn to clean, analy
 Violence Reduction Victim Demographics Aggregated saved in db_one_cleaned.csv
 Crimes for One Year Prior To Present saved in db_two_cleaned.csv
 
-Seasonal-Analysis.ipynb
+2. Seasonal-Analysis.ipynb
 This notebook conducts Seasonal Crime Analysis for the years 2023-2024. Here’s a summary of the key tasks performed:
 Temporal features such as Month and Season (Winter, Spring, Summer, Fall) are derived from the occurrence date.
 Seasonal Trends Analysis:
@@ -37,7 +37,7 @@ Crime counts are grouped and analyzed by Season and Primary Crime Description.
 A stacked bar chart is plotted to visualize seasonal trends for different crime types.
 The analysis provides insights into how crime occurrences vary by season and location, focusing on visual representation using Matplotlib.
 
-Machine-Learning-Models.csv
+3. Machine-Learning-Models.csv
 This notebook focuses on Machine Learning Model Development.
 Models such as Random Forest, Logistic Regression, Gaussian Naive Bayes, and Decision Trees are likely applied.
 Metrics like accuracy, precision, recall, F1-score, and ROC-AUC are used to evaluate model performance.
@@ -46,12 +46,12 @@ Preprocessing: Encoding, scaling, and balancing data using SMOTE.
 Cross-Validation: Using Stratified K-Fold for fair model evaluation.
 Model Evaluation: Accuracy, Precision, Recall, F1-score, and ROC-AUC metrics are computed.
 
-Crime-Analysis-By-Time-Of-Day.ipynb
+4. Crime-Analysis-By-Time-Of-Day.ipynb
 The notebook analyzes crime data by classifying occurrences into time-of-day categories (Morning, Afternoon, Night). 
 It involves loading a dataset, cleaning time fields, categorizing data, and visualizing crime distributions using Matplotlib. 
 The focus is on understanding crime patterns based on specific time windows.
 
-Violence-Reduction-Aggregated-Analysis.ipynb 
+5. Violence-Reduction-Aggregated-Analysis.ipynb 
 This notebook analyzes crime trends and distributions:
 Key Activities:
 1. Crime Type Distribution: Visualizes the frequency of various crime types using bar plots.
@@ -59,7 +59,7 @@ Key Activities:
 3. Yearly Crime Trends: Plots yearly trends in crime counts to observe overall patterns.
 The notebook combines Pandas for data manipulation and Matplotlib/Seaborn for visualizations.
 
-D2 Final.ipynb 
+6. D2 Final.ipynb 
 
 The notebook analyzes crime trends using a combination of temporal, spatial, and categorical analysis techniques. Here’s an overview of the tasks performed.
 
