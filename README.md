@@ -60,28 +60,35 @@ Key Activities:
 The notebook combines Pandas for data manipulation and Matplotlib/Seaborn for visualizations.
 
 D2 Final.ipynb 
-The notebook analyzes crime trends using a combination of temporal, spatial, and categorical analysis techniques. Here’s an overview of the tasks performed:
+
+The notebook analyzes crime trends using a combination of temporal, spatial, and categorical analysis techniques. Here’s an overview of the tasks performed.
+
 Key Sections:
+
 Temporal Analysis: Understanding Crime Trends Over Time
 This section likely analyzes trends and patterns of crimes over specific time frames.
+
 Spatial Analysis: Visualizing Crime Locations
 Crime locations are visualized on maps using spatial analysis techniques.
+
 Categorical Analysis: Top Crime Types
-Identifies and visualizes the most common types of crimes.
-Factors Influencing Crime Type and Arrest Likelihood
+Identifies and visualizes the most common types of crimes. Factors Influencing Crime Type and Arrest Likelihood
 Examines various factors influencing different crime types and the probability of arrests.
+
 Spatial Analysis: Identifying Spatial Crime Clusters Using DBSCAN
 Utilizes the DBSCAN clustering algorithm to identify spatial crime hotspots.
 Mapping Police Stations
 Visualizes police station locations on the map.
-Identifying Critical Stations in the Network Using Graph Theory
+Identifying Critical Stations in the Network Using Graph Theory.
+
 Applies graph theory to determine the network's critical nodes(transit stations).
 Libraries imported:
-Pandas, NumPy, Matplotlib, Seaborn for data manipulation and visualization.
+Pandas, NumPy, Matplotlib, and Seaborn for data manipulation and visualization.
 Folium for interactive maps.
 GeoPandas, Shapely, and Contextily for spatial data.
 Scikit-learn's DBSCAN for clustering analysis.
 NetworkX for graph theory-based analysis.
+
 Summary of Tools and Techniques:
 Visualization: Heatmaps, charts, and spatial maps using Folium and Matplotlib.
 Clustering: DBSCAN to identify crime clusters.
