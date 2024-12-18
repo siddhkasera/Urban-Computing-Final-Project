@@ -90,6 +90,7 @@ Spatial Analysis: Geospatial libraries like GeoPandas and Contextily.
 
 
 Install the following libraries to run the code in D2final.ipynb 
+
 pip install pandas numpy matplotlib seaborn folium geopandas contextily scikit-learn shapely networkx
 
 Datasets used - 
